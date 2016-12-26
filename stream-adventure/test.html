@@ -1,0 +1,1050 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="1265">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Times; min-height: 14.0px}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Times}
+    p.p3 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Times; color: #0000ee}
+    span.s1 {text-decoration: underline ; color: #0000ee}
+    span.s2 {color: #000000}
+    span.s3 {text-decoration: underline}
+    td.td1 {margin: 0.5px 0.5px 0.5px 0.5px; padding: 1.0px 1.0px 1.0px 1.0px}
+    td.td2 {width: 774.0px; margin: 0.5px 0.5px 0.5px 0.5px; padding: 1.0px 1.0px 1.0px 1.0px}
+  </style>
+</head>
+<body>
+<table cellspacing="0" cellpadding="0">
+  <tbody>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">&lt;!DOCTYPE html&gt;</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">&lt;html lang="en"&gt;</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">&lt;head&gt;</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">&lt;meta charset="utf-8" /&gt;</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">&lt;meta name="author" content="Colin Hughes" /&gt;</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">&lt;meta name="description" content="A website dedicated to the fascinating world of mathematics and programming" /&gt;</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">&lt;meta name="keywords" content="programming,mathematics,problems,puzzles" /&gt;</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p1"><br></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">&lt;title&gt;Problem 88 - Project Euler&lt;/title&gt;</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">&lt;link rel="shortcut icon" href="<a href="http://projecteuler.net/favicon.ico"><span class="s1">favicon.ico</span></a>" /&gt;</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">&lt;link rel="stylesheet" type="text/css" href="<a href="http://projecteuler.net/style_main.css"><span class="s1">style_main.css</span></a>" /&gt;</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">&lt;link rel="stylesheet" type="text/css" href="<a href="http://projecteuler.net/style_light.css"><span class="s1">style_light.css</span></a>" /&gt;</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">&lt;script type="text/x-mathjax-config"&gt;</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">MathJax.Hub.Config({</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">jax: ["input/TeX", "output/HTML-CSS"],</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">tex2jax: {</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">inlineMath: [ ["$","$"], ["\\(","\\)"] ],</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">displayMath: [ ["$$","$$"], ["\\[","\\]"] ],</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">processEscapes: true</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">},</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">"HTML-CSS": { availableFonts: ["TeX"] }</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">});</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">&lt;/script&gt;</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p1"><br></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p3"><span class="s2">&lt;script type="text/javascript" src="<a href="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML"><span class="s3">http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML</span></a>"&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">&lt;/script&gt;</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">&lt;/head&gt;</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p1"><br></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">&lt;body&gt;</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">&lt;div id="container"&gt;</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p1"><br></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">&lt;div id="nav" class="noprint"&gt;</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">&lt;ul&gt;</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">&lt;li&gt;&lt;a href="<a href="http://projecteuler.net/about"><span class="s1">about</span></a>" title="About" accesskey="h"&gt;About&lt;/a&gt;&lt;/li&gt;</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">&lt;li id="current"&gt;&lt;a href="<a href="http://projecteuler.net/problems"><span class="s1">problems</span></a>" title="Problems" accesskey="1"&gt;Problems&lt;/a&gt;&lt;/li&gt;</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">&lt;li&gt;&lt;a href="<a href="http://projecteuler.net/progress"><span class="s1">progress</span></a>" title="Progress" accesskey="2"&gt;Progress&lt;/a&gt;&lt;/li&gt;</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">&lt;li&gt;&lt;a href="<a href="http://projecteuler.net/friends"><span class="s1">friends</span></a>" title="Friends" accesskey="3"&gt;Friends&lt;/a&gt;&lt;/li&gt;</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">&lt;li&gt;&lt;a href="<a href="http://projecteuler.net/account"><span class="s1">account</span></a>" title="Account" accesskey="4"&gt;Account&lt;/a&gt;&lt;/li&gt;</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">&lt;li&gt;&lt;a href="<a href="http://projecteuler.net/news"><span class="s1">news</span></a>" title="News" accesskey="5"&gt;News&lt;/a&gt;&lt;/li&gt;</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">&lt;li&gt;&lt;a href="<a href="http://projecteuler.net/statistics"><span class="s1">statistics</span></a>" title="Statistics" accesskey="6"&gt;Statistics&lt;/a&gt;&lt;/li&gt;</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">&lt;li&gt;&lt;a href="<a href="http://projecteuler.net/logout=ec1f1"><span class="s1">logout=ec1f1</span></a>" title="Logout" accesskey="7"&gt;Logout&lt;/a&gt;&lt;/li&gt;</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">&lt;/ul&gt;</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">&lt;/div&gt;</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">&lt;div id="info_panel"&gt;&lt;div&gt;Logged in as &lt;strong&gt;christianwu&lt;/strong&gt;&lt;br /&gt;Sat, 15 Feb 2014, 22:15&lt;/div&gt;&lt;div style="vertical-align:middle;"&gt;Lights: On &lt;input type="radio" name="scheme" class="radio" value="light" checked="checked" onclick="location.href='scheme=light-292f4';" /&gt;&amp;nbsp; Off &lt;input type="radio" name="scheme" class="radio" value="dark" onclick="location.href='scheme=dark-292f4';" /&gt;&lt;/div&gt;&lt;a href="<a href="http://projecteuler.net/rss2_euler.xml"><span class="s1">rss2_euler.xml</span></a>"&gt;&lt;img src="<a href="http://projecteuler.net/images/icon_rss.png"><span class="s1">images/icon_rss.png</span></a>" alt="RSS Feed" title="RSS Feed" /&gt;&lt;/a&gt;&lt;a href="<a href="http://projecteuler.net/secure=2030d"><span class="s1">secure=2030d</span></a>"&gt;&lt;img src="<a href="http://projecteuler.net/images/icon_lock.png"><span class="s1">images/icon_lock.png</span></a>" alt="Use secure connection" title="Use secure connection" /&gt;&lt;/a&gt;&lt;/div&gt;</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p1"><br></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">&lt;div id="logo" class="noprint"&gt;</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">&lt;img src="<a href="http://projecteuler.net/images/pe_banner_light.png"><span class="s1">images/pe_banner_light.png</span></a>" alt="Project Euler .net" /&gt;</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">&lt;/div&gt;</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p1"><br></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">&lt;div id="content"&gt;</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">&lt;table style="width:100%" class="noprint"&gt;&lt;tr&gt;&lt;td&gt;&lt;a href="<a href="http://projecteuler.net/problem=87"><span class="s1">problem=87</span></a>" style="cursor:pointer;" class="info"&gt;&lt;span style="color:#666;text-align:left;width:250px;"&gt;Go to problem 87 (Solved):&lt;br /&gt;&amp;quot;Prime power triples&amp;quot;&lt;/span&gt;&lt;img src="<a href="http://projecteuler.net/images/icon_back_solved.png"><span class="s1">images/icon_back_solved.png</span></a>" alt="Next" /&gt;&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;div style="text-align:right;"&gt;&lt;a href="<a href="http://projecteuler.net/problem=89"><span class="s1">problem=89</span></a>" style="cursor:pointer;" class="info"&gt;&lt;span style="color:#666;text-align:left;width:300px;right:0;"&gt;Go to problem 89 (Solved):&lt;br /&gt;&amp;quot;Roman numerals&amp;quot;&lt;/span&gt;&lt;img src="<a href="http://projecteuler.net/images/icon_next_solved.png"><span class="s1">images/icon_next_solved.png</span></a>" alt="Next" /&gt;&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;div style="text-align:center;" class="print"&gt;&lt;img src="<a href="http://projecteuler.net/images/pe_banner.png"><span class="s1">images/pe_banner.png</span></a>" alt="projecteuler.net" style="border:none;" /&gt;&lt;/div&gt;</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">&lt;h2&gt;Product-sum numbers&lt;/h2&gt;&lt;div class="info" style="cursor:help;width:200px;margin-bottom:10px;"&gt;&lt;h3&gt;Problem 88&lt;/h3&gt;&lt;span style="width:300px;color:#666;"&gt;Published on Friday, 4th February 2005, 01:00 pm; Solved by 4544&lt;/span&gt;&lt;/div&gt;</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">&lt;div class="problem_content" role="problem"&gt;</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p1"><br></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">&lt;p&gt;A natural number, N, that can be written as the sum and product of a given set of at least two natural numbers, {&lt;i&gt;a&lt;/i&gt;&lt;sub&gt;1&lt;/sub&gt;, &lt;i&gt;a&lt;/i&gt;&lt;sub&gt;2&lt;/sub&gt;, ... , &lt;i&gt;a&lt;/i&gt;&lt;sub&gt;&lt;i&gt;k&lt;/i&gt;&lt;/sub&gt;} is called a product-sum number: N = &lt;i&gt;a&lt;/i&gt;&lt;sub&gt;1&lt;/sub&gt; + &lt;i&gt;a&lt;/i&gt;&lt;sub&gt;2&lt;/sub&gt; + ... + &lt;i&gt;a&lt;/i&gt;&lt;sub&gt;&lt;i&gt;k&lt;/i&gt;&lt;/sub&gt; = &lt;i&gt;a&lt;/i&gt;&lt;sub&gt;1&lt;/sub&gt; &lt;img src='<a href="http://projecteuler.net/images/symbol_times.gif"><span class="s1">images/symbol_times.gif</span></a>' width='9' height='9' alt='&amp;times;' border='0' style='vertical-align:middle;' /&gt; &lt;i&gt;a&lt;/i&gt;&lt;sub&gt;2&lt;/sub&gt; &lt;img src='<a href="http://projecteuler.net/images/symbol_times.gif"><span class="s1">images/symbol_times.gif</span></a>' width='9' height='9' alt='&amp;times;' border='0' style='vertical-align:middle;' /&gt; ... &lt;img src='<a href="http://projecteuler.net/images/symbol_times.gif"><span class="s1">images/symbol_times.gif</span></a>' width='9' height='9' alt='&amp;times;' border='0' style='vertical-align:middle;' /&gt; &lt;i&gt;a&lt;/i&gt;&lt;sub&gt;&lt;i&gt;k&lt;/i&gt;&lt;/sub&gt;.&lt;/p&gt;</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">&lt;p&gt;For example, 6 = 1 + 2 + 3 = 1 &lt;img src='<a href="http://projecteuler.net/images/symbol_times.gif"><span class="s1">images/symbol_times.gif</span></a>' width='9' height='9' alt='&amp;times;' border='0' style='vertical-align:middle;' /&gt; 2 &lt;img src='<a href="http://projecteuler.net/images/symbol_times.gif"><span class="s1">images/symbol_times.gif</span></a>' width='9' height='9' alt='&amp;times;' border='0' style='vertical-align:middle;' /&gt; 3.&lt;/p&gt;</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">&lt;p&gt;For a given set of size, &lt;i&gt;k&lt;/i&gt;, we shall call the smallest N with this property a minimal product-sum number. The minimal product-sum numbers for sets of size, &lt;i&gt;k&lt;/i&gt; = 2, 3, 4, 5, and 6 are as follows.&lt;/p&gt;</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">&lt;p style='margin-left:50px;'&gt;&lt;i&gt;k&lt;/i&gt;=2: 4 = 2 &lt;img src='<a href="http://projecteuler.net/images/symbol_times.gif"><span class="s1">images/symbol_times.gif</span></a>' width='9' height='9' alt='&amp;times;' border='0' style='vertical-align:middle;' /&gt; 2 = 2 + 2&lt;br /&gt;</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">&lt;i&gt;k&lt;/i&gt;=3: 6 = 1 &lt;img src='<a href="http://projecteuler.net/images/symbol_times.gif"><span class="s1">images/symbol_times.gif</span></a>' width='9' height='9' alt='&amp;times;' border='0' style='vertical-align:middle;' /&gt; 2 &lt;img src='<a href="http://projecteuler.net/images/symbol_times.gif"><span class="s1">images/symbol_times.gif</span></a>' width='9' height='9' alt='&amp;times;' border='0' style='vertical-align:middle;' /&gt; 3 = 1 + 2 + 3&lt;br /&gt;</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">&lt;i&gt;k&lt;/i&gt;=4: 8 = 1 &lt;img src='<a href="http://projecteuler.net/images/symbol_times.gif"><span class="s1">images/symbol_times.gif</span></a>' width='9' height='9' alt='&amp;times;' border='0' style='vertical-align:middle;' /&gt; 1 &lt;img src='<a href="http://projecteuler.net/images/symbol_times.gif"><span class="s1">images/symbol_times.gif</span></a>' width='9' height='9' alt='&amp;times;' border='0' style='vertical-align:middle;' /&gt; 2 &lt;img src='<a href="http://projecteuler.net/images/symbol_times.gif"><span class="s1">images/symbol_times.gif</span></a>' width='9' height='9' alt='&amp;times;' border='0' style='vertical-align:middle;' /&gt; 4 = 1 + 1 + 2 + 4&lt;br /&gt;</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">&lt;i&gt;k&lt;/i&gt;=5: 8 = 1 &lt;img src='<a href="http://projecteuler.net/images/symbol_times.gif"><span class="s1">images/symbol_times.gif</span></a>' width='9' height='9' alt='&amp;times;' border='0' style='vertical-align:middle;' /&gt; 1 &lt;img src='<a href="http://projecteuler.net/images/symbol_times.gif"><span class="s1">images/symbol_times.gif</span></a>' width='9' height='9' alt='&amp;times;' border='0' style='vertical-align:middle;' /&gt; 2 &lt;img src='<a href="http://projecteuler.net/images/symbol_times.gif"><span class="s1">images/symbol_times.gif</span></a>' width='9' height='9' alt='&amp;times;' border='0' style='vertical-align:middle;' /&gt; 2 &lt;img src='<a href="http://projecteuler.net/images/symbol_times.gif"><span class="s1">images/symbol_times.gif</span></a>' width='9' height='9' alt='&amp;times;' border='0' style='vertical-align:middle;' /&gt; 2 = 1 + 1 + 2 + 2 + 2&lt;br /&gt;</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">&lt;i&gt;k&lt;/i&gt;=6: 12 = 1 &lt;img src='<a href="http://projecteuler.net/images/symbol_times.gif"><span class="s1">images/symbol_times.gif</span></a>' width='9' height='9' alt='&amp;times;' border='0' style='vertical-align:middle;' /&gt; 1 &lt;img src='<a href="http://projecteuler.net/images/symbol_times.gif"><span class="s1">images/symbol_times.gif</span></a>' width='9' height='9' alt='&amp;times;' border='0' style='vertical-align:middle;' /&gt; 1 &lt;img src='<a href="http://projecteuler.net/images/symbol_times.gif"><span class="s1">images/symbol_times.gif</span></a>' width='9' height='9' alt='&amp;times;' border='0' style='vertical-align:middle;' /&gt; 1 &lt;img src='<a href="http://projecteuler.net/images/symbol_times.gif"><span class="s1">images/symbol_times.gif</span></a>' width='9' height='9' alt='&amp;times;' border='0' style='vertical-align:middle;' /&gt; 2 &lt;img src='<a href="http://projecteuler.net/images/symbol_times.gif"><span class="s1">images/symbol_times.gif</span></a>' width='9' height='9' alt='&amp;times;' border='0' style='vertical-align:middle;' /&gt; 6 = 1 + 1 + 1 + 1 + 2 + 6&lt;/p&gt;</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">&lt;p&gt;Hence for 2&lt;img src='<a href="http://projecteuler.net/images/symbol_le.gif"><span class="s1">images/symbol_le.gif</span></a>' width='10' height='12' alt='&amp;le;' border='0' style='vertical-align:middle;' /&gt;&lt;i&gt;k&lt;/i&gt;&lt;img src='<a href="http://projecteuler.net/images/symbol_le.gif"><span class="s1">images/symbol_le.gif</span></a>' width='10' height='12' alt='&amp;le;' border='0' style='vertical-align:middle;' /&gt;6, the sum of all the minimal product-sum numbers is 4+6+8+12 = 30; note that 8 is only counted once in the sum.&lt;/p&gt;</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">&lt;p&gt;In fact, as the complete set of minimal product-sum numbers for 2&lt;img src='<a href="http://projecteuler.net/images/symbol_le.gif"><span class="s1">images/symbol_le.gif</span></a>' width='10' height='12' alt='&amp;le;' border='0' style='vertical-align:middle;' /&gt;&lt;i&gt;k&lt;/i&gt;&lt;img src='<a href="http://projecteuler.net/images/symbol_le.gif"><span class="s1">images/symbol_le.gif</span></a>' width='10' height='12' alt='&amp;le;' border='0' style='vertical-align:middle;' /&gt;12 is {4, 6, 8, 12, 15, 16}, the sum is 61.&lt;/p&gt;</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">&lt;p&gt;What is the sum of all the minimal product-sum numbers for 2&lt;img src='<a href="http://projecteuler.net/images/symbol_le.gif"><span class="s1">images/symbol_le.gif</span></a>' width='10' height='12' alt='&amp;le;' border='0' style='vertical-align:middle;' /&gt;&lt;i&gt;k&lt;/i&gt;&lt;img src='<a href="http://projecteuler.net/images/symbol_le.gif"><span class="s1">images/symbol_le.gif</span></a>' width='10' height='12' alt='&amp;le;' border='0' style='vertical-align:middle;' /&gt;12000?&lt;/p&gt;</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p1"><br></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">&lt;/div&gt;&lt;br /&gt;</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">&lt;div style="text-align:center;" class="noprint"&gt;</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">&lt;form name="form" method="post" action="problem=88"&gt;</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">&lt;table width="400" cellpadding="10" align="center"&gt;</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">&lt;tr&gt;</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">&lt;td&gt;</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">&lt;table&gt;</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">&lt;tr&gt;</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">&lt;td&gt;&lt;div style="text-align:right;"&gt;Answer:&lt;/div&gt;&lt;/td&gt;</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">&lt;td style="text-align:left;"&gt;</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">&lt;div style="text-align:left;"&gt;&lt;input size="20" type="text" name="guess_88" id="guess" maxlength="30" /&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="2"&gt; &lt;/td&gt;</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">&lt;/tr&gt;</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">&lt;tr&gt;</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">&lt;td&gt;&lt;div style="text-align:right;"&gt;Confirmation Code:&lt;/div&gt;&lt;/td&gt;</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">&lt;td&gt;&lt;div style="text-align:left;"&gt;&lt;input type="text" size="5" maxlength="5" autocomplete="off" name="confirm" /&gt;&lt;/div&gt;&lt;/td&gt;</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">&lt;/tr&gt;</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">&lt;tr&gt;</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">&lt;td colspan="2"&gt;</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">&lt;div style="text-align:center;font-size:80%;"&gt;</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">&lt;img src="<a href="http://projecteuler.net/captcha/image_show.php?ekey=5615b8a66a89"><span class="s1">captcha/image_show.php?ekey=5615b8a66a89</span></a>" id="captcha" name="captcha" style="border:1px solid #999;" id="image" onclick="update_code();" title="Click to reload a new image" /&gt;&lt;br /&gt;Click image to refresh&lt;br /&gt;</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">&lt;a href="<a href="http://projecteuler.net/captcha/image_play.php"><span class="s1">captcha/image_play.php</span></a>" style="text-decoration:none;"&gt;&lt;img src="<a href="http://projecteuler.net/captcha/audio_icon.gif"><span class="s1">captcha/audio_icon.gif</span></a>" style="vertical-align:middle;" /&gt; Audio&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">&lt;/div&gt;</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">&lt;/td&gt;</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">&lt;/tr&gt;</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">&lt;tr&gt;</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">&lt;td&gt;</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">&lt;/td&gt;&lt;td style="text-align:left;"&gt;&lt;input type="submit" value="Check" /&gt;</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">&lt;/td&gt;</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">&lt;/tr&gt;</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">&lt;/table&gt;</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">&lt;/td&gt;</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">&lt;/tr&gt;</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">&lt;/table&gt;</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">&lt;/form&gt;</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">&lt;script type="text/javascript"&gt;</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">var t=1000*60*20;</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">function update_code() {</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">document.captcha.src = "captcha/image_show.php?ekey=5615b8a66a89&amp;unique=" + Math.random();</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">setTimeout("update_code();",t);</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">}</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">document.getElementById('guess').focus();</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">scroll(0,0);</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">setTimeout("update_code();",t);</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">&lt;/script&gt;</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">&lt;/div&gt;&lt;/div&gt;</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p1"><br></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p1"><br></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p1"><br></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p1"><br></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p1"><br></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">&lt;div id="footer" class="noprint"&gt;</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">&lt;a href="<a href="http://projecteuler.net/copyright"><span class="s1">copyright</span></a>"&gt;Project Euler Copyright Information&lt;/a&gt;</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">&lt;!--/Creative Commons License--&gt;&lt;!-- &lt;rdf:RDF xmlns="http://web.resource.org/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"&gt;</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">&lt;Work rdf:about=""&gt;</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">&lt;license rdf:resource="http://creativecommons.org/licenses/by-nc-sa/2.0/uk/" /&gt;</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">&lt;dc:type rdf:resource="http://purl.org/dc/dcmitype/Text" /&gt;</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">&lt;/Work&gt;</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">&lt;License rdf:about="http://creativecommons.org/licenses/by-nc-sa/2.0/uk/"&gt;&lt;permits rdf:resource="http://web.resource.org/cc/Reproduction"/&gt;&lt;permits rdf:resource="http://web.resource.org/cc/Distribution"/&gt;&lt;requires rdf:resource="http://web.resource.org/cc/Notice"/&gt;&lt;requires rdf:resource="http://web.resource.org/cc/Attribution"/&gt;&lt;prohibits rdf:resource="http://web.resource.org/cc/CommercialUse"/&gt;&lt;permits rdf:resource="http://web.resource.org/cc/DerivativeWorks"/&gt;&lt;requires rdf:resource="http://web.resource.org/cc/ShareAlike"/&gt;&lt;/License&gt;&lt;/rdf:RDF&gt; --&gt;</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">&lt;/div&gt;</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">&lt;/div&gt;</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">&lt;div style="height:1px;"&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;/div&gt;&lt;/body&gt;</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2">&lt;/html&gt;</p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+</body>
+</html>
